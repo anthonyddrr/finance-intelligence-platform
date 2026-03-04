@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive Portfolio Intelligence System (APIS)</title>
+  <meta name="description" content="Data-driven finance capstone by Anthony De Ruiter: APIS report with code and outputs for Canadian energy equities (Python for Data Analysis and Python for Finance).">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 720px; margin: 0 auto; padding: 2rem; color: #24292f; }
+    h1 { font-size: 1.75rem; border-bottom: 1px solid #d0d7de; padding-bottom: 0.3em; }
+    h2 { font-size: 1.25rem; margin-top: 1.5em; }
+    a { color: #0969da; }
+    hr { border: none; border-top: 1px solid #d0d7de; margin: 1.5em 0; }
+    ul { padding-left: 1.5em; }
+  </style>
+</head>
+<body>
+  <h1>Adaptive Portfolio Intelligence System (APIS)</h1>
+  <p><strong>Author / Written by: Anthony De Ruiter</strong></p>
+  <p><strong>Data-driven finance capstone applying Python for Data Analysis and Python for Finance to Canadian energy equities.</strong></p>
+  <p>A comprehensive project demonstrating clean code, interpretive visuals, and methods from both books applied to an original domain—TSX-listed energy stocks (e.g. CNQ, Suncor, Cenovus)—rather than copying textbook examples.</p>
+
+  <hr>
+  <p><a href="report.html"><strong>View full report with code and outputs →</strong></a></p>
+  <hr>
+  <h2>Overview</h2>
+  <p>The APIS project is an 18-section report that maps to the majority of <em>Python for Data Analysis</em> (<a href="https://github.com/wesm/pydata-book">pydata-book</a>) and <em>Python for Finance</em> content. Each section includes docstrings, commentary, and described visual outputs. <strong>All code in this project is original work.</strong></p>
+
+  <hr>
+  <h2>Highlights</h2>
+  <ul>
+    <li><strong>Original domain</strong> — All techniques are applied to Canadian energy equities (TSX-listed stocks such as CNQ, Suncor, Cenovus), not taken directly from the textbooks.</li>
+    <li><strong>18 sections</strong> — From environment setup through derivatives valuation and Kelly Criterion capital management.</li>
+    <li><strong>4 custom OOP classes</strong> — <code>Portfolio</code>, <code>RiskEngine</code>, <code>BSMOption</code>, <code>GeometricBrownianMotion</code> — demonstrating use of the Python data model.</li>
+    <li><strong>Coverage matrix</strong> — End-of-report mapping of each book chapter to its corresponding project section.</li>
+    <li><strong>Documented code</strong> — Docstrings, commentary, and visual outputs throughout.</li>
+  </ul>
+
+  <hr>
+  <h2>Topics Covered</h2>
+  <ul>
+    <li><strong>Basics:</strong> Data types and structures, NumPy vectorization, pandas analytics, object-oriented programming</li>
+    <li><strong>Financial data science:</strong> Data visualization, financial time series, I/O operations, performance Python (including Numba)</li>
+    <li><strong>Math and stochastics:</strong> Mathematical tools, stochastic processes (GBM, Merton jump diffusion, CIR), variance reduction, valuation</li>
+    <li><strong>Statistics:</strong> Normality tests, portfolio optimization (efficient frontier, capital market line), Bayesian statistics, machine learning</li>
+    <li><strong>Algorithmic trading:</strong> Trading strategies (e.g. simple moving averages, ML-based), backtesting, Kelly Criterion capital management</li>
+    <li><strong>Derivatives:</strong> Valuation framework, simulation of financial models, derivatives valuation (European and American, e.g. LSMC), portfolio and market-based valuation</li>
+  </ul>
+  <p>The report ties these together with NumPy vectorization, pandas workflows, stochastic simulation, VaR/CVaR risk analytics, BSM options pricing with Greeks, and performance benchmarking with Numba.</p>
+
+  <hr>
+  <h2>Tech Stack</h2>
+  <ul>
+    <li><strong>Language:</strong> Python 3</li>
+    <li><strong>Libraries:</strong> NumPy, pandas, SciPy, Numba, Matplotlib/Plotly (or similar for visuals)</li>
+    <li><strong>References:</strong> <em>Python for Data Analysis</em> (Wes McKinney), <em>Python for Finance</em> (Yves Hilpisch)</li>
+  </ul>
+
+  <hr>
+  <h2>References</h2>
+  <ul>
+    <li><a href="https://www.hilpisch.com/Python_in_Finance.html">Python for Finance (O'Reilly)</a></li>
+    <li><a href="https://github.com/wesm/pydata-book">Python for Data Analysis – pydata-book</a></li>
+    <li><a href="https://pyportfolioopt.readthedocs.io/en/latest/GeneralEfficientFrontier.html">PyPortfolioOpt – Efficient Frontier</a></li>
+    <li><a href="https://kernc.github.io/backtesting.py/doc/examples/Quick%20Start%20User%20Guide.html">backtesting.py</a></li>
+    <li><a href="https://ryanoconnellfinance.com/value-at-risk-historical-method/">Value-at-Risk (Historical Method)</a></li>
+    <li><a href="https://www.interactivebrokers.com/campus/ibkr-quant-news/risk-metrics-in-python-var-and-cvar-guide/">Risk Metrics in Python: VaR and CVaR</a></li>
+    <li><a href="https://www.codearmo.com/blog/pricing-options-monte-carlo-simulation-python">Pricing Options with Monte Carlo in Python</a></li>
+    <li><a href="https://www.quantstart.com/articles/geometric-brownian-motion-simulation-with-python/">Geometric Brownian Motion in Python</a></li>
+    <li><a href="https://github.com/coreych/kelly-criterion">Kelly Criterion (GitHub)</a></li>
+    <li><a href="https://stackoverflow.com/questions/47254454/markowitz-mean-variance-optimization-in-python-using-scipy-optimize">Markowitz Mean-Variance Optimization with SciPy</a></li>
+    <li><a href="https://www.interactivebrokers.com/campus/ibkr-quant-news/python-download-stock-prices-using-the-yfinance-package/">yfinance – Stock Data in Python</a></li>
+  </ul>
+</body>
+</html>

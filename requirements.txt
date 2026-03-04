@@ -1,0 +1,8 @@
+# For building report.html (notebook execution + export)
+nbconvert>=7.0
+jupyter>=1.0
+numpy
+pandas
+scipy
+matplotlib
+yfinance
